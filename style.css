@@ -98,6 +98,11 @@ label {
   padding-bottom: 2px;
 }
 
+label>span {
+  font-size: 0.6rem;
+  color:#747474;
+}
+
 input {
   font-size: 0.8rem;
   padding: 8px;

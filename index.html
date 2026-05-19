@@ -25,27 +25,27 @@
         <div class="inputs">
           <fieldset>
             <label for="first_name">First name</label>
-            <input type="text" name="first_name" id="first_name">
+            <input type="text" name="first_name" id="first_name" required>
           </fieldset>
           <fieldset>
             <label for="last_name">Last name</label>
-            <input type="text" name="last_name" id="last_name">
+            <input type="text" name="last_name" id="last_name" required>
           </fieldset>
           <fieldset>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
           </fieldset>
           <fieldset>
-            <label for="phone">Phone number</label>
-            <input type="number" name="phone" id="phone">
+            <label for="phone">Phone number <span>(optional)</span></label>
+            <input type="tel" name="phone" id="phone">
           </fieldset>
           <fieldset>
             <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" minlength="8" required>
           </fieldset>
           <fieldset>
             <label for="password_confirm">Confirm password</label>
-            <input type="password" name="password_confirm" id="password_confirm">
+            <input type="password" name="password_confirm" id="password_confirm" minlength="8" required>
           </fieldset>
         </div>
       </div>
