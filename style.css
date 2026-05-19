@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'British Letter';
+  src: url(./src/British_Letter.woff);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font
+  display: flex;
+  flex-direction: row;
+  background-color: #f9fafb;
+}
+
+
