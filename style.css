@@ -106,11 +106,13 @@ input {
 }
 
 input:user-invalid {
+  outline: none;
   border: 1px solid rgb(165, 0, 0);
 }
 
 input:focus {
-  border: 1px solid red;
+  outline: none;
+  border: 1px solid #476fdf;
   box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.1);
 }
 
@@ -128,3 +130,9 @@ button {
   border-radius: 8px;
 }
 
+.login>a {
+  text-decoration: none;
+  color:#596D48;
+  font-weight: 600;
+  font-size: inherit;
+}
