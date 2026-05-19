@@ -3,7 +3,16 @@ This is a sign-up form done as a learning project within The Odin Project cursus
 
 # Learnings
 ## HTML
+* Forms
+* Inputs of different types (password, tel, email...)
+* HTML validations (minlength, pattern, required ...)
+
 ## CSS
+* Flexbox
+* Hero with background image styling
+* Form styling
+* Box-shadow property
+* Pseudo-classes like :focus, :user-invalid, :hover, :active ...
 
 # Acknowledgements
 * Background photo by [Halie West](https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
