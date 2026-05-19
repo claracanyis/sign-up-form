@@ -7,6 +7,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 body {
@@ -18,6 +21,7 @@ body {
 
 /* Background image - left side */
 .hero {
+  flex: 0 1 0;
   position: relative;
 }
 
@@ -29,7 +33,7 @@ body {
   background-color: rgba(0,0,0,0.3);
   width: 100%;
   position: absolute;
-  top: 30%;
+  top: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,3 +52,79 @@ body {
 }
 
 /* Form - right side */
+.container {
+  flex: 1 1 0;
+}
+
+.container p{
+  font-size: 1.2rem;
+  margin: 40px;
+  max-width: 550px;
+}
+
+.container p:first-child {
+  margin-top: 120px;
+}
+
+.box {
+  background-color: white;
+  width: 100%;
+  padding: 20px 40px 40px 40px;
+  box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.inputs {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 550px;
+  margin-top: 20px;
+}
+
+fieldset {
+  border: none;
+  width: 250px;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding-bottom: 2px;
+}
+
+input {
+  font-size: 0.8rem;
+  padding: 8px;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+}
+
+input:user-invalid {
+  border: 1px solid rgb(165, 0, 0);
+}
+
+input:focus {
+  border: 1px solid red;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.1);
+}
+
+p.login {
+  font-size: 0.9rem;
+}
+
+button {
+  font-size: 1rem;
+  background-color: #596D48;
+  color: white;
+  padding: 15px 40px;
+  margin: 30px 40px;
+  border: none;
+  border-radius: 8px;
+}
+
