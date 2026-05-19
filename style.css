@@ -10,10 +10,41 @@
 }
 
 body {
-  font
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: row;
   background-color: #f9fafb;
 }
 
+/* Background image - left side */
+.hero {
+  position: relative;
+}
 
+.hero img {
+  height: 100vh;
+}
+
+.logo {
+  background-color: rgba(0,0,0,0.3);
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo img {
+  height: 8rem;
+}
+
+.logo h1 {
+  font-size: 8rem;
+  font-family: 'British Letter';
+  font-weight: lighter;
+  color: white;
+}
+
+/* Form - right side */
